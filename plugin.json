@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "context-control-platform",
+  "description": "Context Control platform operations, multi-tenant workflow guidance, and MCP-backed task orchestration for the multitenant SaaS agent platform.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Context Control"
+  },
+  "homepage": "https://github.com/your-org/context-control-platform",
+  "repository": "https://github.com/your-org/context-control-platform",
+  "license": "MIT",
+  "keywords": [
+    "context-control",
+    "mcp",
+    "platform",
+    "agents",
+    "copilot",
+    "multi-tenant",
+    "task-scheduler"
+  ]
+}
