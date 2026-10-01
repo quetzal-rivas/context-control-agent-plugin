@@ -1,14 +1,14 @@
 {
   "mcpServers": {
-    "context-control-platform": {
-      "url": "http://localhost:3000/api/mcp/platform?tenant_id=tenant_enterprise_corp",
+    "context-control-platform-aws": {
+      "url": "https://d1ct23sivfa3uv.amplifyapp.com/api/mcp/platform?tenant_id=tenant_enterprise_corp",
       "headers": {
         "x-tenant-id": "tenant_enterprise_corp",
         "x-caller-agent": "plugin-agent"
       }
     },
-    "context-control-platform-aws": {
-      "url": "https://d1ct23sivfa3uv.amplifyapp.com/api/mcp/platform?tenant_id=tenant_enterprise_corp",
+    "context-control-platform": {
+      "url": "http://localhost:3000/api/mcp/platform?tenant_id=tenant_enterprise_corp",
       "headers": {
         "x-tenant-id": "tenant_enterprise_corp",
         "x-caller-agent": "plugin-agent"
