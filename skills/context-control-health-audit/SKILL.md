@@ -1,15 +1,6 @@
 ---
 name: context-control-health-audit
 description: Audit the platform for production readiness, queue health, RLS boundaries, and MCP tooling risks.
-version: 1.0.0
-triggers:
-  - "health check"
-  - "audit"
-  - "mcp tool"
-  - "queue"
-  - "rls"
-  - "production"
-  - "security"
 ---
 
 # Context Control Health Audit
@@ -21,6 +12,8 @@ Use this skill when the user asks for a health review, a production readiness ch
 - Review the README and project structure for intended capabilities versus current implementation gaps.
 - Confirm that tenant isolation and RLS-safe access are upheld.
 - Check whether delayed tasks, MCP calls, and profile resolution paths are documented and validated.
+- Confirm MCP API keys have explicit tool whitelists and required scopes.
+- Distinguish task record creation from actual downstream scheduled execution.
 - Look for fake or hardcoded behavior that should be backed by real services or tests.
 - Inspect whether environment variables, secrets, and API keys are kept out of source control.
 
